@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">on_activity_result_fragment</string>
+    <string name="label_complete">完了</string>
+
 </resources>

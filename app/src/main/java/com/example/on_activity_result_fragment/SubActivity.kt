@@ -18,6 +18,7 @@ class SubActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_sub)
         binding.buttonSub.setOnClickListener {
+            setResult(COMPLETE_RESULT_CODE)
             finish()
         }
     }
